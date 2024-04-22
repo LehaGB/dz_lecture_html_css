@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top{
+    padding-bottom: 96px;
+}
+.header{
+    padding-top: 52.78px;
+}
+
+.top__content{
+    padding-top: 105px;
+}
+
+.text{
+    padding-top: 39.56px;
+    padding-bottom: 58px;
+}
+
+.top__buttons{
+    margin-top: 58px;
+}
+
+.logo{
+    margin-top: 279px;
+}
+
+

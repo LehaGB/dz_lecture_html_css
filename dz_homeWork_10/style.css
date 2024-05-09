@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.top{
+    width: 1600px;
+    height: 764px;
+}
+
+.top__header{
+    background: #222;
+    display: flex;
+    align-items: center;
+    gap: 859px;
+    height: 75px;
+    width: 1600px;
+}
+
+.top__lable__search{
+    margin-left: 231px;
+    align-items: center;
+    width: 111px;
+    gap: 41px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 18px;
+    margin-bottom: 19px;
+}
+
+.search{
+    margin-top: 13px;
+}
+
+.top__button{
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+.header__items{
+    display: flex;
+    align-items: center;
+}
+
+.header__photo__men{
+    margin-right: 63px;
+    margin-bottom: 65px;
+}
+
+.header__photo__Rectangle{
+    margin-right: 6px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+}
+
+.title__h1{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #222222;
+}
+.span__title__luxerious{
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: left;
+}
+.span__title__fashion{
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    text-align: left;
+    color: rgb(241, 109, 127);
+}
+

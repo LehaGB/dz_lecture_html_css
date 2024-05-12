@@ -7,9 +7,18 @@ a{
     text-decoration: none;
 }
 
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.contener{
+    max-width: 1600px;
+}
+
 .top{
     width: 1600px;
-    height: 764px;
+    padding-bottom: 65px;
 }
 
 .top__header{
@@ -50,7 +59,6 @@ a{
 
 .header__photo__men{
     margin-right: 63px;
-    margin-bottom: 65px;
 }
 
 .header__photo__Rectangle{
@@ -85,3 +93,117 @@ a{
     color: rgb(241, 109, 127);
 }
 
+.offer{
+    width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 30px;
+    padding-left: 230px;
+    padding-bottom: 103px;
+}
+
+.pthoto_offer_4{
+    grid-column: 1 / 4;
+}
+
+.fetured__items{
+    width: 1140px;
+    height: 1395px;
+    padding-left: 230px;
+    padding-bottom: 60px;
+}
+
+.fetured__items__title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+.fetured__items__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    text-align: center;
+    padding-bottom: 49px;
+}
+
+.fetured__items__photo{
+    width: 360px;
+    height: 420px;
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    grid-template-rows: repeat(2. 420px);
+    gap: 30px;
+    align-items: center;
+}
+
+.fetured__items__title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 28px;
+}
+
+.price__text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    width: 314px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title__and__price{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.price{
+    margin-top: 22px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.fetured__items_button{
+    width: 212px;
+    height: 48px;
+    gap: 0px;
+    border: 1px solid rgba(255, 106, 106, 1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 465px;
+    margin-top: 48px;
+}
+
+.form_button{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    border: none;
+}
